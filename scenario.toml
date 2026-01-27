@@ -3,12 +3,12 @@ agentbeats_id = "019b7d0e-2674-79f0-80ab-d2af5c870794"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO", USE_OPEN_ROUTER="TRUE", OPEN_ROUTER_API_KEY="${OPEN_ROUTER_API_KEY}" }
 
 [[participants]]
-agentbeats_id = "019b7d24-58e0-78c0-86a9-40bf27cb3342"
+agentbeats_id = "019bfe62-74b5-76c0-874b-f31a0a60f321"
 name = "agent"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", "MODEL" = "gemini-2.5-pro" }
 
 [config]
 # Add your assessment config here
-num_maps = 25
+num_maps = 5
 top_k = 5
 
