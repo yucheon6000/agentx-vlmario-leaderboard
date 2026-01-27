@@ -5,7 +5,7 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO", USE_OPEN_ROUTE
 [[participants]]
 agentbeats_id = "019bfe62-74b5-76c0-874b-f31a0a60f321"
 name = "agent"
-env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", "MODEL" = "gemini-2.5-pro" }
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", "MODEL" = "gemini-2.5-pro" } 
 
 [config]
 # Add your assessment config here
